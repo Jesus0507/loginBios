@@ -1,0 +1,72 @@
+.signup-container {
+    width: 30%;
+    max-width: 470px;
+    margin: 15vh auto;
+    padding: 40px 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    font-family: Segoe UI, SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.42857143;
+    color: #333;
+
+        
+    @media (max-width: 1300px) {
+        max-width: unset;
+        width: 45%;
+     }
+
+     @media (max-width: 900px) {
+        width: 95%;
+     }
+
+
+
+    .image-container {
+        margin: auto;
+    }
+
+    .head-title {
+        margin: 20px auto;
+        font-size: 36px;
+        font-weight: 500;
+
+        @media (max-width: 670px) {
+            font-size: 26px;
+         }
+    }
+
+    .head-subtitle {
+        font-size:20px; 
+        font-weight: 500;
+    }
+
+
+    input {
+        margin: auto 5px;
+        height: 46px;
+    }
+
+
+    button {
+        background-color: #296ec6 !important;
+        height: 50px;
+        width: 90%;
+        max-width: 230px;
+    }
+}
+
+.img-company {
+    position: absolute;
+    bottom: 50px;
+    right: 100px;
+
+    @media (max-width: 1300px) {
+        right: 10px;
+        bottom: 5px;
+     }
+
+     @media (max-width: 1100px) {
+        display: none;
+     }
+}
